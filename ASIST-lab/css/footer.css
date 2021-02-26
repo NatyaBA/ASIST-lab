@@ -1,0 +1,147 @@
+/*_______________Home________________*/
+/*_______________Career________________*/
+
+.footer {
+    background-color: rgb(29, 7, 66);
+}
+
+.footer-logo {
+    text-align: center; 
+    padding: 0;
+}
+
+.footer-logo-image {
+    margin-top: 55px;
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+}
+
+.content-header {
+    color: rgb(147, 224, 151);
+    text-align: center; 
+    margin-top: 35px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-h2 {
+    color: rgb(253, 255, 253);
+    text-align: center; 
+    margin-top: 55px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.footer-content {
+    color: rgb(253, 255, 253);
+    text-align: justify; 
+    width: 785px;
+    margin-top: 50px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;  
+    line-height: 37px;
+}
+.button {
+    color: rgb(29, 7, 66);
+    background-color: rgb(147, 224, 151);  
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    border: none; 
+    box-shadow: none;
+    height: 50px;
+    width: 130px;
+}
+
+.footer-button {
+    margin-top: 50px;
+    text-align: center; 
+    padding-bottom: 135px; 
+}
+
+.bottom {
+    color: rgb(29, 7, 66);
+    text-align: center; 
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 84;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom-second {
+    color: rgb(29, 7, 66);
+    text-align: center; 
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1160px) {
+    /*_______________Career________________*/
+    /*_______________Home________________*/
+    .footer-logo-image {
+        margin-top: 100px;
+    }
+    .footer-button {
+    
+        padding-bottom: 75px; 
+    }
+
+    .bottom {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 680px) {
+    /*_______________Career________________*/
+    /*_______________Home________________*/
+    .footer-logo-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    } 
+
+    .content-header {
+        margin-top: 15px;
+        font-size: 18px;
+
+    }
+    
+    .header-h2 {
+        margin-top: 20px;
+        font-size: 11px;
+  
+    }
+    
+    .footer-content {
+        width: 290px;
+        margin-top: 15px;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;  
+        line-height: 13px;
+    }
+    
+    .button { 
+        font-size: 8px;
+        height: 25px;
+        width: 60px;
+    }
+    
+    .footer-button {
+        margin-top: 20px;
+        padding-bottom: 35px; 
+    }
+    .bottom {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        line-height: 10px;
+        font-size: 6px;
+    }
+
+    .bottom-second {
+        font-size: 6px;
+    }
+}

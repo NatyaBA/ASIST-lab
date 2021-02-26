@@ -1,0 +1,476 @@
+
+/*_______________Home________________*/
+.first-rows, .second-rows{
+    background-color: rgba(240, 240, 240, 0.767);
+    display: flex;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.picture,
+.picture-second {
+    margin: 0px;
+    width: 50%;
+}
+
+.picture-square{ 
+    display: none;
+}
+
+.first-rows-content,
+.second-rows-content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 7, 58);
+    white-space: nowrap;
+}
+
+.first-rows-content {
+    font-size: 72px;
+    text-align: center;
+    margin: 10% 0% 0% 0%;
+    width: 50%;
+}
+
+.second-rows-content {
+    font-size: 22px;
+    text-align: justify;
+    width: 500px;
+}
+
+.main-conteiner {
+    display: flex;
+}
+
+.icon {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    margin-top: 28px;
+}
+
+.content, 
+.main-header {
+    margin: 16px;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+.content {
+    margin-bottom: 28px;
+}
+
+.main-header-cotent {
+    margin: 0px 15px 0px 0px;
+}
+
+.main-header {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+/*_______________Career________________*/
+.main-content-header,
+.main-content-text,
+.main-content-links,
+.main-content-h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 7, 58);  
+}
+
+.main-careers {
+    display: flex;
+    background-color: rgba(240, 240, 240, 0.767);
+    margin-top: 0px;
+}
+
+.careers-content {
+    text-align: justify;
+    margin-left: 54%;
+}
+
+.carrers-picture {
+    margin: 0;
+    width: 50%;
+    position: fixed;   
+    margin-top: -17%;
+    z-index: 20;
+}
+
+.carrers-picture-second {
+    display: none;
+}
+
+.main-content-header {
+    width: 250px;
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.main-content-text {
+    width: 800px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.careers-icon {
+    width: 50px;
+    height: 50px;
+    margin: 30px 12px 6px 0px;
+
+}
+
+.main-conttent-h2 {
+    display: flex;
+    width: 600px;
+    font-size: 27px;
+}
+
+.main-conttent-h2 a {
+    color: rgb(24, 7, 51);
+}
+
+.main-content-footer a {
+    color: rgb(24, 7, 51);
+}
+
+.main-conttent-h2 li {
+   margin-top: 40px;
+   list-style: none;
+   margin-left: 10px;
+ 
+}
+
+ul {
+    padding: 0px;
+    margin-left: 146px;
+}
+
+.main-content-h3 {
+    width: 512px;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 12px;
+    margin-bottom: 10px; 
+}
+
+.main-content-links {
+    width: 560px;
+    font-size: 21px; 
+    line-height: 30px;
+}
+
+.main-content-footer {
+    width: 700px;
+    font-size: 21px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+/*____________________Contact Us_________________*/
+.input-subject {
+    width: 813px;
+    height: 43px;
+    margin-top: 12px;
+
+}
+.input,
+.input-subject,
+.message {
+    background-color: rgba(240, 240, 240, 0.767);
+    border: 1px solid rgba(240, 240, 240, 0.767);
+    border-bottom: 1px solid rgba(20, 18, 18, 0.767);  
+    font-size: 15px;
+} 
+
+.input {
+    border-bottom: 1px solid rgba(20, 18, 18, 0.767);
+    width: 400px;
+    height: 30px;
+}
+
+.main-content {
+    display: flex;
+    background-color: rgba(240, 240, 240, 0.767);
+    margin-top: 30px;
+    width: 92%;
+}
+
+.main-content-picture {
+    width: 50%;
+    margin: 0px;    
+}
+
+.main-contact-header {
+    width: 200px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 7, 58);  
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.text_button {
+    width: 813px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(250, 250, 255);  
+    background-color: rgb(6, 7, 58);
+    height: 50px;
+    margin-top: 50px;
+}
+
+.message {
+    width: 814px;
+    height: 130px;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+
+.message:hover ,
+.input:hover,
+.input-subject:hover {
+    outline: 1px solid #000;
+} 
+
+.contact-link {
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contactUs-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+.main-content-picture-second {
+    display: none;   
+}
+
+@media (max-width: 1160px) {   
+    /*_______________Home________________*/
+    .first-rows, .second-rows{
+        background-color: rgba(240, 240, 240, 0.767);
+        display: block;
+    } 
+
+    .picture {
+        width: 100%;
+    }
+
+    .first-rows-content {
+        width: 100%;
+        height: 520px;
+        padding-top: 33%;
+        margin-top: 50px;
+    }
+    .picture-square{ 
+        display: block;
+        width: 100%;
+        margin: 0%;
+    }
+    .picture-second {
+        width: 100%;
+    }
+
+    .second-rows-content {
+        font-size: 27px;
+        padding-top: 5%;
+        padding-bottom: 12.5%;
+        width: 500px;
+      
+    }
+
+    .picture-second, .picture { 
+        display: none;
+    }   
+    .main-content-picture-second {
+        display: block;   
+    }
+    /*_______________Career________________*/
+
+    .main-careers {
+        display: block;
+        background-color: rgba(240, 240, 240, 0.767);
+        margin-top: 15px;
+    }
+
+    .carrers-picture {
+        display: none;
+    }
+    
+    .carrers-picture-second {
+        display: block;
+        margin: 0;
+        width: 100%;
+        margin-bottom: -10%;
+    }
+
+    .careers-content {
+        margin-left: 0px;
+        padding-top: 70px;
+    }
+/*________________________ContactUs________________*/
+ 
+    .main-content {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .main-content-picture {
+        display: none;   
+    }
+
+    .main-content-picture-second {
+        width: 100%;
+    }
+
+    .text_button,
+    .message {
+        margin-left: 6%;
+    }
+  
+    .text_button{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 680px) {
+    /*_______________Home________________*/
+    .first-rows-content {
+        font-size: 28px;
+        height: 200px;
+    }
+
+    .second-rows-content {
+        font-size: 15px;
+        width: 200px;
+        height: 250px;
+        font-size: 10px; 
+    }
+
+    .main-header {
+        font-size: 20px;
+    }
+
+    .main-header {
+        font-size: 15px;
+
+    }
+    .icon {
+        width: 15px;
+        height: 15px;
+    }
+    .main-header-cotent{
+        margin-bottom: 5px;
+    }
+    
+    .content, 
+    .main-header {
+        margin: 10px;
+    }
+
+    /*_______________Career________________*/
+
+    .main-content-header {
+        width: 200px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .main-content-text {
+        width: 300px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    .careers-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .main-conttent-h2 {
+        width: 300px;
+        font-size: 15px;
+    }
+    
+    .main-conttent-h2 li {
+       margin-top: 20px;
+       list-style: none;
+       margin-left: 10px;
+    }
+    
+    .main-content-h3 {
+        width: 170px;
+        font-size: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px; 
+    }
+    
+    .main-content-links {
+        width: 170px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .main-content-footer {
+        width: 300px;
+        font-size: 10px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    /*____________________Contact Us_________________*/
+    .input-subject {
+        width: 300px;
+        height: 23px;
+        margin-top: 5px;
+    }
+
+    .input {
+        width: 140px;
+        height: 15px;
+    
+    }
+    .main-content {
+        display: flex;
+        margin-top: 20px;
+    }
+
+
+    .main-contact-header {
+        width: 80px;
+        font-size: 10px; 
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .text_button {
+        width: 300px;
+        font-size: 10px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .message {
+        width: 300px;
+        height: 40px;
+        margin-left: 27px;
+        margin-top: 4px;
+    }
+
+    .contact-link {
+        width: 70px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}

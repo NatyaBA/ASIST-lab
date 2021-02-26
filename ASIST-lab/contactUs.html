@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="message.js"></script>
+    <title>Contact Us | ASIST-lab</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+                <img class="logo-image" src="images/Asist-logo.jpg">      
+        </div>
+        <div class="nav-wrap"> 
+            <div class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="career.html">Careers</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </div>
+            <div class="navs">
+                <button class="mainmenubtn">English    ˅ </button>
+                <div class="navs-child">
+                    <a href="contactUs.html">English</a>
+                    <a href="contactUs_ru.html">Русский</a>                   
+                </div>
+            </div>
+        </div>
+        <a class="menu"  href="menu.html">
+            ≡
+        </a>
+    </div>
+    
+
+        <div class="main-content">
+            <div>
+                <img class="main-content-picture-second" src="images/10.jpg" alt="">
+                <div class="main-contact-header">
+                    <b>Contact Us</b>
+                </div>
+                <form class="table" id="form_id" method="post" action="">   
+                    <table border="0">
+                        <tr>
+                            <td scope="col"><input class="input" type="text" name="FIO" placeholder="Name" required></td>
+                            <td><input class="input" type="text" id="email" name="email" placeholder="Email" required oninvalid="setCustomValidity('Enter E-mail')" oninput="setCustomValidity('')"></td>
+                        </tr>
+                        <tr>
+                            <td  colspan="2"><input class="input-subject" type="text" placeholder="Subject" required pattern="^[a-zA-Z]+$"></td>
+                        </tr>
+                    </table>
+                    <div>
+                        <textarea class="message" placeholder="Leave us a message" required></textarea>
+                    </div>
+                    <div class="contact-link">
+                        <img class="contactUs-icon" src="images/15.png" alt="">
+                        <div>
+                            Chose a file...
+                        </div>  
+                    </div>
+                    <p>
+                        <input class="text_button" type="submit" value="Submit">
+                    </p>         
+                </form>
+            </div>
+            <img class="main-content-picture" src="images/10.jpg" alt="">
+    </div> 
+
+
+    <div class="bottom">
+        st. Karl Marks 1, Gomel, Republic of Belarus
+    </div>
+    <div class="bottom-second">
+        Payer’s Registration Number: 491335510<br>©2020 by ASIST-LAB.
+    </div>    
+</body>
+</html>

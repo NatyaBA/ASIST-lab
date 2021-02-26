@@ -1,0 +1,202 @@
+* {
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center; 
+    padding-top: 17px;
+    border-bottom:1px solid rgb(119, 115, 115);
+    width: 950px;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.logo-image {
+    height: 220x;
+    width: 300px;
+}
+
+.nav-wrap {
+     position: sticky; top: 12px;
+    align-self: flex-end;
+    display: flex;
+
+}
+
+.nav {
+   
+    margin-left: 43%;
+    width: 300px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.navs {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-left: 71%;
+    position: absolute;
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.nav-wrap .nav .navs li {
+    display: flex;
+}
+
+.nav-wrap .nav li a ,.navs a {
+    text-decoration: none;
+    font-size: 16px ; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 15, 46);
+}
+
+.mainmenubtn {
+    border: 0px solid rgb(119, 115, 115);
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+    padding:6px;
+    font-size: 16px;
+}
+
+.navs-child {
+    display: none;
+    width: 80px;
+    background-color: rgb(252, 252, 252);
+}
+
+.navs-child a {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    border: 1px solid rgb(119, 115, 115);
+}
+
+.navs:hover .navs-child {
+    display: block;
+}
+
+.menu {
+    display: none;
+}
+
+/*____________________menu_______________*/
+.form-menu {
+    background-color: rgba(240, 240, 240, 0.767);
+    text-align: center;
+    margin-top: 400px;
+}
+
+.links-menu {
+    font-size: 25px;
+    line-height: 2;
+}
+
+.links-menu a {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.clouse {
+    position: absolute;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: -490px;
+}
+
+@media (max-width: 1160px) {
+    .logo {
+        border-bottom:0px solid rgb(119, 115, 115);
+        width: 100%;
+    }
+
+    .nav {
+        display: none;
+    }  
+    .navs {
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 84%;       
+        padding: 1px;
+    }
+
+    .mainmenubtn {
+        border: 1px solid rgb(119, 115, 115);
+        border-radius: 25px;
+    }
+
+    .menu {
+        position: absolute;
+        margin-left: 94%;
+        font-size: 75px;
+        margin-top: -215px;
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media (max-width: 680px) {
+    .logo-image {
+        width: 130px;
+        height: 90px;
+    }
+    .navs {
+        margin-top: -30%;
+        margin-left: 73%;
+        padding: 0px;
+       
+    }
+   
+    .menu {
+        margin-left: 90%;
+        font-size: 25px;
+        margin-top: -90px;
+    }
+
+    .form-menu {
+        background-color: rgba(240, 240, 240, 0.767);
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    .links-menu {
+        font-size: 15px;
+    }
+    
+    .clouse {
+        font-size: 30px;
+        margin-left: 32%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        margin-top: -300px;
+    }
+
+    .mainmenubtn {
+        margin-top: 20px;
+        border: 1px solid rgb(119, 115, 115);
+        border-radius: 25px;
+        font-size: 8px;
+    }
+
+    .navs-child {
+        width: 40px;
+        font-size: 8px;
+    }
+
+    .navs-child a {
+        padding: 2px;
+    }    
+}
